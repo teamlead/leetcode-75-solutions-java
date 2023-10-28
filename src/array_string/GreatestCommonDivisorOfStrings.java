@@ -22,10 +22,9 @@ public class GreatestCommonDivisorOfStrings {
     public static void main(String[] args) {
         GreatestCommonDivisorOfStrings solution = new GreatestCommonDivisorOfStrings();
 
-        // Sample asserts
-        assert solution.gcdOfStrings("ABCABC", "ABC").equals("ABC");
-        assert solution.gcdOfStrings("ABABAB", "ABAB").equals("AB");
-        assert solution.gcdOfStrings("LEET", "CODE").equals("");
+        assert solution.gcdOfStrings("ABCABC", "ABC").equals("ABC") : "Test case 1 failed";
+        assert solution.gcdOfStrings("ABABAB", "ABAB").equals("AB") : "Test case 2 failed";
+        assert solution.gcdOfStrings("LEET", "CODE").equals("") : "Test case 3 failed";
 
         System.out.println("All tests passed!");
     }

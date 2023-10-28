@@ -63,14 +63,18 @@ leetcode-75-solutions-java/
 
 ## Problems and Solutions
 
-| Category  | Problem                                                                                     | Solution                                                                                    | Difficulty |
-| ------------- |---------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------|------------|
-| Array / String  | [Merge Strings Alternately](https://leetcode.com/problems/merge-strings-alternately/) | [MergeStringsAlternately.java](src/array_string/MergeStringsAlternately.java)               |  Easy      |            |
-| Array / String  | [Greatest Common Divisor of Strings](https://leetcode.com/problems/greatest-common-divisor-of-strings/)    | [GreatestCommonDivisorOfStrings.java](src/array_string/GreatestCommonDivisorOfStrings.java) | Easy                                                                        |            |
-| ... | ...                                                                                         | ...                                                                                         | ...                                                                         |            |
-| Trie  | [Implement Trie (Prefix Tree)](https://leetcode.com/problems/implement-trie-prefix-tree)                                   | [PrefixTrie.java](src/trie/PrefixTrie.java)                                                 | Medium                                                                      |            |
-| Trie  | [Search Suggestions System](https://leetcode.com/problems/search-suggestions-system)                            | [SearchSuggestionsSystem.java](src/trie/SearchSuggestionsSystem.java)                       | Medium                                                                      |            |
-| ... | ...                                                                                         | ...                                                                                         | ...                                                                         |            |
+| Category       | Problem                                                                                                             | Solution                                                                                    | Difficulty |
+|----------------|---------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------|------------|
+| Array / String | [Merge Strings Alternately](https://leetcode.com/problems/merge-strings-alternately/)                               | [MergeStringsAlternately.java](src/array_string/MergeStringsAlternately.java)               | Easy       |            |
+| Array / String | [Greatest Common Divisor of Strings](https://leetcode.com/problems/greatest-common-divisor-of-strings/)             | [GreatestCommonDivisorOfStrings.java](src/array_string/GreatestCommonDivisorOfStrings.java) | Easy       |            |
+| Array / String | [Kids With the Greatest Number of Candies](https://leetcode.com/problems/kids-with-the-greatest-number-of-candies/) | [GreatestNumberOfCandies.java](src/array_string/GreatestNumberOfCandies.java)               | Easy       |            |
+| Array / String | [Can Place Flowers](https://leetcode.com/problems/can-place-flowers/)                                               | [CanPlaceFlowers.java](src/array_string/CanPlaceFlowers.java)                               | Easy       |            |
+| Array / String | [Reverse Vowels of a String](https://leetcode.com/problems/reverse-vowels-of-a-string/)                             | [ReverseVowelsOfString.java](src/array_string/ReverseVowelsOfString.java)                   | Easy       |            |
+| Array / String | [Reverse Words in a String](https://leetcode.com/problems/reverse-words-in-a-string/)                               | [ReverseWordsInString.java](src/array_string/ReverseWordsInString.java)                     | Medium     |            |
+| ...            | ...                                                                                                                 | ...                                                                                         | ...        |            |
+| Trie           | [Implement Trie (Prefix Tree)](https://leetcode.com/problems/implement-trie-prefix-tree)                            | [PrefixTrie.java](src/trie/PrefixTrie.java)                                                 | Medium     |            |
+| Trie           | [Search Suggestions System](https://leetcode.com/problems/search-suggestions-system)                                | [SearchSuggestionsSystem.java](src/trie/SearchSuggestionsSystem.java)                       | Medium     |            |
+| ...            | ...                                                                                                                 | ...                                                                                         | ...        |            |
 
 ## Usage
 
@@ -91,10 +95,12 @@ cd src/category_name
 
 ```bash
 javac ProblemName.java
-java ProblemName
+java -ea ProblemName
 ```
 
 If using IDEA, right-click the src folder, then select "Mark Directory" as "Sources Root". Now, Java files should benefit from all the Java IDE features of IntelliJ IDEA, including autocomplete, syntax highlighting, and more.
+
+Remember, when using assertions in Java, ensure that you've enabled them by using the `-ea` flag when running the Java program.
 
 ## Contribution
 
