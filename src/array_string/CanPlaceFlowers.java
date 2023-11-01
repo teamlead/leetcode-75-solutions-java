@@ -30,4 +30,5 @@ public class CanPlaceFlowers {
 
         System.out.println("All tests passed!");
     }
+
 }

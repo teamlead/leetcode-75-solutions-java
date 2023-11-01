@@ -23,7 +23,6 @@ public class ReverseWordsInString {
     public static void main(String[] args) {
         ReverseWordsInString reverser = new ReverseWordsInString();
 
-        // Sample assertions
         assert reverser.reverseWords("the sky is blue").equals("blue is sky the") : "Test case 1 failed";
         assert reverser.reverseWords("  hello world  ").equals("world hello") : "Test case 2 failed";
         assert reverser.reverseWords("a good   example").equals("example good a") : "Test case 3 failed";
